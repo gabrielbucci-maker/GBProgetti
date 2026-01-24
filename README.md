@@ -1,2 +1,2 @@
 # GBProgetti
-Cario ogni cosa che sviluppo nel tempo libero
+Carico ogni cosa che sviluppo nel tempo libero

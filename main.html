@@ -1,13 +1,151 @@
-<html>
+<!DOCTYPE html>
+<html lang="it">
 <head>
-    <title>Gabriel Bucci WebSite</title>
-    <link rel="stylesheet" type="text/css" href="styles.css">   
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-   
+  <title>Gabriel Bucci | Web Developer | Business Central</title>
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="Gabriel Bucci | Web Developer | Business Central" />
+  <meta property="og:description" content="Web Developer con esperienza su Microsoft Dynamics 365 Business Central e background in Data Analysis." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="#" />
+  <meta property="og:image" content="assets/img/preview.png" />
+
+  <!-- Favicon -->
+  <link rel="icon" href="assets/icons/favicon.ico" />
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" />
+
+  <!-- Custom CSS (compiled from Sass) -->
+  <link rel="stylesheet" href="assets/css/style.css" />
 </head>
 <body>
-    <h1>Welcome to My Web Page</h1>
-    <p>This is a sample paragraph to demonstrate the HTML structure.</p>
+
+  <!-- NAVBAR -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+    <div class="container">
+      <a class="navbar-brand" href="#">Gabriel Bucci</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="#about">Chi sono</a></li>
+          <li class="nav-item"><a class="nav-link" href="#skills">Competenze</a></li>
+          <li class="nav-item"><a class="nav-link" href="#projects">Progetti</a></li>
+          <li class="nav-item"><a class="nav-link" href="cv.html">CV</a></li>
+          <li class="nav-item"><a class="nav-link" href="contatti.html">Contatti</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <header class="hero-section d-flex align-items-center text-center">
+    <div class="container">
+      <h1 class="display-5 fw-bold">Web Developer | Business Central</h1>
+      <p class="lead mt-3">Sviluppatore web con esperienza su Microsoft Dynamics 365 Business Central e formazione Start2Impact</p>
+      <div class="mt-4">
+        <a href="cv.html" class="btn btn-primary me-2">Visualizza CV</a>
+        <a href="contatti.html" class="btn btn-outline-light">Contattami</a>
+      </div>
+    </div>
+  </header>
+
+  <!-- ABOUT -->
+  <section id="about" class="section-padding">
+    <div class="container">
+      <h2 class="section-title">Chi sono</h2>
+      <p class="section-text">
+        Sono un Web Developer con esperienza professionale nello sviluppo di soluzioni business su
+        <strong>Microsoft Dynamics 365 Business Central</strong>. Ho completato il mio percorso di formazione con
+        <strong>Start2Impact</strong>, maturando competenze sia nello sviluppo web che nella data analysis.
+      </p>
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section id="skills" class="section-padding bg-light">
+    <div class="container">
+      <h2 class="section-title">Competenze</h2>
+      <div class="row g-4">
+        <div class="col-md-4">
+          <div class="skill-card">
+            <h5>Linguaggi</h5>
+            <ul>
+              <li>HTML</li>
+              <li>CSS</li>
+              <li>Java</li>
+              <li>AL</li>
+              <li>SQL</li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="skill-card">
+            <h5>Tecnologie</h5>
+            <ul>
+              <li>Microsoft Dynamics 365 Business Central</li>
+              <li>Sviluppo soluzioni business</li>
+              <li>Responsive Web Design</li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="skill-card">
+            <h5>Strumenti</h5>
+            <ul>
+              <li>Git & GitHub</li>
+              <li>Office 365</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section id="projects" class="section-padding">
+    <div class="container">
+      <h2 class="section-title">Progetti</h2>
+      <div class="row g-4">
+
+        <div class="col-md-6">
+          <div class="project-card">
+            <h5>Progetto Web Development</h5>
+            <p>Sito web responsive sviluppato durante il percorso Start2Impact.</p>
+            <a href="assets/projects/progetto-web.pdf" target="_blank" class="btn btn-sm btn-outline-primary">Visualizza PDF</a>
+          </div>
+        </div>
+
+        <div class="col-md-6">
+          <div class="project-card">
+            <h5>Progetto Data Analysis</h5>
+            <p>Analisi dati basata su SQL e interpretazione dei risultati.</p>
+            <a href="assets/projects/progetto-data-analysis.pdf" target="_blank" class="btn btn-sm btn-outline-primary">Visualizza PDF</a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer bg-dark text-light text-center py-4">
+    <div class="container">
+      <p>&copy; 2026 Gabriel Bucci</p>
+      <div class="social-links">
+        <a href="https://www.linkedin.com/in/gabriel-bucci-27ba69267" target="_blank">LinkedIn</a> |
+        <a href="https://www.instagram.com/bucci.gabriel?igsh=MWlrb2pxZzFkMDV4NA==" target="_blank">Instagram</a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 
 </html>

@@ -16,3 +16,29 @@ p,
 li {
   color: #ffffff;
 }
+#about,
+#skills,
+#projects {
+  min-height: 100vh;
+}
+.hero-section {
+  min-height: 100vh;
+}
+header .btn-primary {
+  background-color: #1e90ff; /* blu vivace */
+  border: none;
+}
+header .btn-primary:hover {
+  background-color: #1c86ee; /* blu leggermente più scuro */
+}
+footer {
+  background-color: #071422; /* blu molto scuro */
+  color: #ffffff;
+  padding: 20px 0;
+  text-align: center;
+}
+footer a {
+  color: #1e90ff; /* blu vivace */
+  text-decoration: none;
+}
+

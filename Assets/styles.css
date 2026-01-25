@@ -1,13 +1,4 @@
 /* =========================
-   VARIABLES
-   ========================= */
-$primary-color: #0d6efd;
-$dark-color: #212529;
-$light-color: #f8f9fa;
-$text-color: #333;
-$border-radius: 8px;
-
-/* =========================
    GLOBAL STYLES
    ========================= */
 * {
@@ -16,9 +7,9 @@ $border-radius: 8px;
 
 body {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  color: $text-color;
+  color: #333;
   margin: 0;
-  padding-top: 70px; // spazio per navbar sticky
+  padding-top: 70px; /* spazio per navbar sticky */
 }
 
 a {
@@ -29,7 +20,7 @@ a {
    NAVBAR
    ========================= */
 .navbar {
-  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
 }
 
 /* =========================
@@ -37,7 +28,7 @@ a {
    ========================= */
 .hero-section {
   min-height: 80vh;
-  background: linear-gradient(135deg, $dark-color, #000);
+  background: linear-gradient(135deg, #212529, #000);
   color: white;
   display: flex;
   justify-content: center;
@@ -67,17 +58,17 @@ a {
 .skill-card {
   background: white;
   padding: 1.5rem;
-  border-radius: $border-radius;
-  box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
   height: 100%;
+}
 
-  h5 {
-    margin-bottom: 1rem;
-  }
+.skill-card h5 {
+  margin-bottom: 1rem;
+}
 
-  ul {
-    padding-left: 1.2rem;
-  }
+.skill-card ul {
+  padding-left: 1.2rem;
 }
 
 /* =========================
@@ -85,7 +76,7 @@ a {
    ========================= */
 .project-card {
   border: 1px solid #e0e0e0;
-  border-radius: $border-radius;
+  border-radius: 8px;
   padding: 1.5rem;
   display: flex;
   flex-direction: column;
@@ -110,10 +101,8 @@ a {
 /* =========================
    FOOTER
    ========================= */
-.footer {
-  a {
-    color: $primary-color;
-  }
+.footer a {
+  color: #0d6efd;
 }
 
 /* =========================

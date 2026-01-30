@@ -10,11 +10,13 @@ body {
   background-color: #0b1c2d;
 }
 
+
 .section-title,
 .section-text,
 p,
 li {
   color: #ffffff;
+  position: center;
 }
 #about,
 #skills,
@@ -41,4 +43,3 @@ footer a {
   color: #1e90ff; /* blu vivace */
   text-decoration: none;
 }
-

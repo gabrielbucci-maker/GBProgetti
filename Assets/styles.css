@@ -7,7 +7,15 @@ body {
 }
 
 .section-padding {
-  background-color: #9ca7b1;
+  background-color:#0b1c2d;
+}
+.section-my-5 {
+  position: center;
+  text-align: left;
+}
+.section-text-muted {
+  color: #74b4f0;
+  position: center;
 }
 
 

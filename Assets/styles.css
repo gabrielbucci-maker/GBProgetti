@@ -6,9 +6,10 @@ body {
   padding-top: 70px;
 }
 
-/* .section-padding {
+.section-padding {
   background-color: #9ca7b1;
-} */
+}
+
 
 .section-title,
 .section-text,
@@ -17,7 +18,9 @@ li {
   color: #ffffff;
   position: center;
 }
-
+h3 {
+  color: #1e90ff; /* blu vivace */  
+}
 #about,
 #skills,
 #projects {

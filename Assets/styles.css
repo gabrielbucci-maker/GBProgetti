@@ -9,6 +9,11 @@ body {
 .section-padding {
   background-color: #9ca7b1;
 }
+.section-container.my-5 {
+  padding: 2rem 0;
+  position: center;
+  
+}
 
 
 .section-title,
@@ -18,8 +23,9 @@ li {
   color: #ffffff;
   position: center;
 }
-h3 {
-  color: #1e90ff; /* blu vivace */  
+.section-text-muted {
+  color: #7591f5;
+  position: center;
 }
 #about,
 #skills,

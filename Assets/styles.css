@@ -5,6 +5,10 @@ body {
   margin: 0;
   padding-top: 70px;
 }
+/* css */
+.subtitle-custom {
+  color: #0d6efd; /* blu Bootstrap */
+}
 
 .section-padding {
   background-color:#0b1c2d;
@@ -17,6 +21,10 @@ body {
   color: #74b4f0;
   position: center;
 } */
+ .container.my-5 {
+  position: center;
+  text-align: left;
+ }
 
 
 .section-title,

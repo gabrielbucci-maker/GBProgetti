@@ -7,7 +7,7 @@ body {
 }
 
 .section-padding {
-  background-color: #7aaee2;
+  background-color: #9ca7b1;
 }
 
 
@@ -17,6 +17,9 @@ p,
 li {
   color: #ffffff;
   position: center;
+}
+h3 {
+  color: #1e90ff; /* blu vivace */  
 }
 #about,
 #skills,

@@ -9,12 +9,6 @@ body {
 .section-padding {
   background-color: #9ca7b1;
 }
-.section-container.my-5 {
-  padding: 2rem 0;
-  position: center;
-  
-}
-
 
 .section-title,
 .section-text,
@@ -23,10 +17,7 @@ li {
   color: #ffffff;
   position: center;
 }
-.section-text-muted {
-  color: #7591f5;
-  position: center;
-}
+
 #about,
 #skills,
 #projects {

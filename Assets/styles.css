@@ -49,10 +49,8 @@ header .btn-primary {
 header .btn-primary:hover {
   background-color: #1c86ee;
 }
-.subtitle-erp {
-  color: #4dabf7;  /* scegli il colore che vuoi */
-}
-/* ====== FOOTER ====== */
+
+===== FOOTER ====== */
 footer {
   background-color: #071422;
   padding: 20px 0;

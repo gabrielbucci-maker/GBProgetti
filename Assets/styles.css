@@ -17,6 +17,14 @@ body {
   position: center;
   text-align: left;
 }
+.profile-img {
+  width: 180px;
+  height: 180px;
+  object-fit: cover;        /* evita deformazioni */
+  border-radius: 50%;       /* rende l'immagine tonda */
+  border: 4px solid #f6f7f9; /* cornice blu */
+  box-shadow: 0 4px 15px rgba(0,0,0,0.2); /* ombra elegante */
+}
 /* .section-text-muted {
   color: #74b4f0;
   position: center;

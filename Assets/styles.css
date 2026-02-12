@@ -1,77 +1,63 @@
+/* ====== BASE ====== */
 body {
-  background-color: #0b1c2d; /* blu scuro */
+  background-color: #0b1c2d;
   color: #ffffff;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   margin: 0;
-  padding-top: 70px;
-}
-/* css */
-.subtitle-custom {
-  color: #0d6efd; /* blu Bootstrap */
+  padding-top: 70px; /* compensa navbar fixed */
 }
 
-.section-padding {
-  background-color:#0b1c2d;
-}
-.section-my-5 {
-  position: center;
-  text-align: left;
-}
-.profile-img {
-  width: 200px;
-  height: 200px;
-  object-fit: cover;        /* evita deformazioni */
-  border-radius: 50%;       /* rende l'immagine tonda */
-  border: 4px solid #f6f7f9; /* cornice blu */
-  box-shadow: 0 4px 15px rgba(0,0,0,0.2); /* ombra elegante */
-  margin-bottom: 20px; /* spazio tra foto e titolo */
-  transition: transform 0.3s ease;
-}
-/* .section-text-muted {
-  color: #74b4f0;
-  position: center;
-} */
- .container.my-5 {
-  position: center;
-  text-align: left;
- }
-
-
-.section-title,
-.section-text,
-p,
-li {
-  color: #ffffff;
-  position: center;
-}
-h3 {
-  color: #1e90ff; /* blu vivace */  
-}
-#about,
-#skills,
-#projects {
-  min-height: 100vh;
-}
+/* ====== HERO ====== */
 .hero-section {
   min-height: calc(100vh - 70px);
   display: flex;
   align-items: center;
 }
 
+/* ====== FOTO PROFILO ====== */
+.profile-img {
+  width: 180px;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 4px solid #ffffff;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.3);
+  margin-bottom: 20px;
+  transition: transform 0.3s ease;
+}
+
+.profile-img:hover {
+  transform: scale(1.05);
+}
+
+/* ====== TITOLI ====== */
+h3 {
+  color: #1e90ff;
+}
+
+/* ====== SEZIONI ====== */
+.section-padding {
+  padding: 80px 0;
+}
+
+/* ====== BOTTONI HERO ====== */
 header .btn-primary {
-  background-color: #1e90ff; /* blu vivace */
+  background-color: #1e90ff;
   border: none;
 }
+
 header .btn-primary:hover {
-  background-color: #1c86ee; /* blu leggermente più scuro */
+  background-color: #1c86ee;
 }
+
+/* ====== FOOTER ====== */
 footer {
-  background-color: #071422; /* blu molto scuro */
-  color: #ffffff;
+  background-color: #071422;
   padding: 20px 0;
   text-align: center;
 }
+
 footer a {
-  color: #1e90ff; /* blu vivace */
+  color: #1e90ff;
   text-decoration: none;
 }

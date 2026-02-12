@@ -54,7 +54,7 @@ h3 {
 }
 .hero-section {
   min-height: 100vh;
-  padding-top: 120px; /* spazio sotto navbar */
+  padding-top: 60px; /* spazio sotto navbar */
 }
 
 header .btn-primary {

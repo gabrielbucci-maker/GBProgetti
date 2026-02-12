@@ -53,8 +53,9 @@ h3 {
   min-height: 100vh;
 }
 .hero-section {
-  min-height: 100vh;
-  padding-top: 60px; /* spazio sotto navbar */
+  min-height: calc(100vh - 70px);
+  display: flex;
+  align-items: center;
 }
 
 header .btn-primary {

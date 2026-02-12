@@ -24,7 +24,7 @@ body {
   border-radius: 50%;       /* rende l'immagine tonda */
   border: 4px solid #f6f7f9; /* cornice blu */
   box-shadow: 0 4px 15px rgba(0,0,0,0.2); /* ombra elegante */
-  position: center;
+  margin-bottom: 20px; /* spazio tra foto e titolo */
   transition: transform 0.3s ease;
 }
 /* .section-text-muted {
@@ -54,7 +54,9 @@ h3 {
 }
 .hero-section {
   min-height: 100vh;
+  padding-top: 120px; /* spazio sotto navbar */
 }
+
 header .btn-primary {
   background-color: #1e90ff; /* blu vivace */
   border: none;

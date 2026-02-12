@@ -25,6 +25,7 @@ body {
   border: 4px solid #f6f7f9; /* cornice blu */
   box-shadow: 0 4px 15px rgba(0,0,0,0.2); /* ombra elegante */
   position: center;
+  transition: transform 0.3s ease;
 }
 /* .section-text-muted {
   color: #74b4f0;

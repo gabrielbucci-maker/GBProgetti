@@ -1,7 +1,7 @@
 /* ====== BASE ====== */
 body {
   background-color: #0b1c2d;
-  color: #ffffff;
+   color: #ffffff;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   margin: 0;
   padding-top: 70px; /* compensa navbar fixed */
@@ -50,7 +50,7 @@ header .btn-primary:hover {
   background-color: #1c86ee;
 }
 
-===== FOOTER ====== */
+/* ====== FOOTER ====== */
 footer {
   background-color: #071422;
   padding: 20px 0;

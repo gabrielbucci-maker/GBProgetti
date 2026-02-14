@@ -113,3 +113,12 @@ footer a {
 .project-link:hover {
   text-decoration: underline;
 }
+.projects-section {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 0 15px;
+}
+.projects-title,
+.projects-intro {
+  text-align: center;
+}

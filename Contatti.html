@@ -88,7 +88,7 @@
 
   <script>
     // Inizializza EmailJS
-    emailjs.init("PUBLIC_KEY"); // <-- metti la tua Public Key
+    emailjs.init("FGXcW5xgGKedUogSB"); // <-- metti la tua Public Key
 
     const form = document.getElementById("contact-form");
     const status = document.getElementById("form-status");
@@ -106,7 +106,7 @@
       status.textContent = "Invio in corso...";
       status.className = "text-primary mt-3 fw-semibold";
 
-      emailjs.sendForm("SERVICE_ID", "TEMPLATE_ID", this)
+      emailjs.sendForm("service_37t2wto", "template_g5he182", this)
         .then(() => {
           status.textContent = "Messaggio inviato correttamente!";
           status.className = "text-success mt-3 fw-semibold";
